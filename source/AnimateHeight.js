@@ -320,7 +320,7 @@ const AnimateHeight = class extends React.Component {
       // Add webkit vendor prefix still used by opera, blackberry...
       contentStyle.WebkitTransition = contentStyle.transition;
 
-      if (height === 0) {
+      if (height == 0) {
         contentStyle.opacity = 0;
       }
     }
